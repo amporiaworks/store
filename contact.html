@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – Amporia Works</title>
+  <link rel="canonical" href="https://amporiaworks.store/">
+  <meta name="robots" content="noindex, follow">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/favicon/favicon.ico?v=v1" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?v=v1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png?v=v1">
+  <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png?v=v1">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest?v=v1">
+
+  <!-- Fonts and Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<header>
+  <div class="header-wrapper">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="Amporia Works Logo" class="logo">
+      </a>
+    </div>
+
+    <div class="nav-container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Our Service</a>
+        <a href="contact.html" class="active">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="content contact-info">
+  <p>
+    <a href="#" onclick="openContactOptions(); return false;">
+      <img src="assets/phone.png" class="icon">
+      <strong>Phone: </strong>
+      <span class="link-content">+91 76529 49538</span>
+    </a>
+  </p>
+
+  <p>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=amporiaworks@gmail.com" target="_blank">
+      <img src="assets/email.png" class="icon">
+      <strong>Email: </strong>
+      <span class="link-content">amporiaworks@gmail.com</span>
+    </a>
+  </p>
+
+  <p>
+    <a href="https://maps.app.goo.gl/xAwpXHuFkzDZJp8Y9" target="_blank">
+      <img src="assets/location.png" class="icon">
+      <strong>Address: </strong><br>
+      <span class="link-content">
+        Division of Student Welfare,<br>
+        Lovely Professional University,<br>
+        Jalandhar-Delhi, G.T. Road,<br>
+        Phagwara, Punjab (INDIA) -144411.
+      </span>
+    </a>
+  </p>
+</div>
+
+<!-- MODAL -->
+<div id="contactModal" class="modal">
+  <div class="modal-content">
+    <h3>Contact Us</h3>
+
+    <a href="tel:+917652949538" class="option">
+      <img src="assets/call_a.png" class="btn-icon">Call Now
+    </a>
+
+    <a href="https://wa.me/917652949538?text=Hy%20AW"
+       target="_blank"
+       class="option">
+      <img src="assets/whatsapp.png" class="btn-icon">WhatsApp
+    </a>
+
+    <button onclick="closeContactOptions()" class="close-btn">Cancel</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
