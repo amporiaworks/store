@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Amporia Works</title>
+  <meta name="description" content="Call, WhatsApp or email Amporia Works, or visit us at the Division of Student Welfare, Lovely Professional University, Phagwara.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#000000">
+  <link rel="canonical" href="https://amporiaworks.store/contact.html">
+
+  <meta property="og:title" content="Contact Us – Amporia Works">
+  <meta property="og:description" content="Call, WhatsApp or email Amporia Works at Lovely Professional University, Phagwara.">
+  <meta property="og:url" content="https://amporiaworks.store/contact.html">
+  <meta property="og:image" content="https://amporiaworks.store/assets/pre_logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Amporia Works">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon/favicon.ico?v=v4" sizes="any">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png?v=v4">
+  <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png?v=v4">
+  <link rel="manifest" href="assets/favicon/site.webmanifest?v=v4">
+
+  <!-- Fonts and styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo-container">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="Amporia Works" class="logo">
+    </a>
+  </div>
+
+  <div class="nav-container">
+    <nav aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html">Our Services</a>
+      <a href="contact.html" class="active" aria-current="page">Contact Us</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content contact-info">
+  <h1 class="page-title">Contact Us</h1>
+
+  <p>
+    <!-- Falls back to a normal phone call if JavaScript is unavailable -->
+    <a href="tel:+917652949538" id="phoneLink">
+      <img src="assets/phone.png" class="icon" alt="">
+      <strong>Phone:</strong>
+      <span class="link-content">+91 76529 49538</span>
+    </a>
+  </p>
+
+  <p>
+    <!-- Opens Gmail in the browser on desktops without a mail app (see script.js) -->
+    <a href="mailto:amporiaworks@gmail.com" id="emailLink">
+      <img src="assets/email.png" class="icon" alt="">
+      <strong>Email:</strong>
+      <span class="link-content">amporiaworks@gmail.com</span>
+    </a>
+  </p>
+
+  <p>
+    <a href="https://maps.app.goo.gl/xAwpXHuFkzDZJp8Y9" target="_blank" rel="noopener noreferrer">
+      <img src="assets/location.png" class="icon" alt="">
+      <strong>Address:</strong><br>
+      <span class="link-content">
+        Division of Student Welfare,<br>
+        Lovely Professional University,<br>
+        Jalandhar-Delhi, G.T. Road,<br>
+        Phagwara, Punjab (INDIA) – 144411
+      </span>
+    </a>
+  </p>
+</main>
+
+<!-- Contact options modal -->
+<div id="contactModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle" hidden>
+  <div class="modal-content">
+    <h2 id="contactModalTitle">Contact Us</h2>
+
+    <a href="tel:+917652949538" class="option">
+      <img src="assets/call_a.png" class="btn-icon" alt="">Call Now
+    </a>
+
+    <a href="https://wa.me/917652949538?text=Hi%20Amporia%20Works"
+       target="_blank" rel="noopener noreferrer" class="option">
+      <img src="assets/whatsapp.png" class="btn-icon" alt="">WhatsApp
+    </a>
+
+    <button type="button" class="close-btn" id="closeContactModal">Cancel</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>&copy; <span class="year">2026</span> Amporia Works </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
